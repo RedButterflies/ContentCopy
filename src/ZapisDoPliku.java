@@ -30,7 +30,7 @@ public class ZapisDoPliku {
         BufferedReader bufferedReader = new BufferedReader(fileReader);
                 String line;
         System.out.println("Odczyt z pliku");
-        
+
         while((line=bufferedReader.readLine())!=null)
         {
             System.out.println(line);
